@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
-  _enemy: {fileID: 94834287067766344}
+  _spawn: {fileID: 0}
 --- !u!61 &-4766319765802002072
 BoxCollider2D:
   m_ObjectHideFlags: 0
