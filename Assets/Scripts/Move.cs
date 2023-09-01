@@ -3,6 +3,7 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     [SerializeField] private float _speed;
+
     private Vector3 _direction;
 
     private void Start()
@@ -11,7 +12,7 @@ public class Move : MonoBehaviour
         _direction = _spawn.SetDirection();
     }
 
-    void Update()
+    private void Update()
     {
         transform.Translate(_direction * Time.deltaTime * _speed);
     }

@@ -40,11 +40,9 @@ public class Spawn : MonoBehaviour
 
         if (random == 1)
         {
-            Debug.Log("Left");
             return Vector3.left;
         }
 
-        Debug.Log("Rigth");
         return Vector3.right;
     }
 }
